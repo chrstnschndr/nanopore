@@ -1,2 +1,2 @@
 # nanopore
-Basics
+Basic Commands
