@@ -1,13 +1,6 @@
 # Nanopore Basic Pre-Processing of cDNA seq
 Basecalling, Mapping, Removing Duplicates, Quantification. In this case, the input is barcoded de-multiplexed inputs sorted into according folders (bc0-9).
 
-### Content
-[Basecalling](#Basecalling)  
-[Mapping](#Mapping)  
-[Duplicate_Removal](#Duplicate_Removal) \n
-[Quantification](#Quantification) 
-<a name="headers"/>
-
 # Basecalling
 The basecalling is performed on an Ubuntu 20 device using Cuda Nvidia GPU together with the Nanopore Basecaller Guppy.
 ```bash
@@ -25,7 +18,7 @@ do minimap2 -ax map-ont --secondary=no -N 0 <h38_frna_from_genomic.fna>
 done
 ```
 
-# Duplicate_Removal
+# Duplicate Removal
 Duplicates and secondary alignments are removed by using pysam
 ```bash
 import pysam
