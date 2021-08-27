@@ -4,7 +4,7 @@ Basecalling, Mapping, Removing Duplicates, Quantification. In this case, the inp
 ### Content
 [Basecalling](#Basecalling)  
 [Mapping](#Mapping)  
-[Duplicate_Removal](#Duplicate_Removal) 
+[Duplicate_Removal](#Duplicate_Removal)
 [Quantification](#Quantification) 
 <a name="headers"/>
 
