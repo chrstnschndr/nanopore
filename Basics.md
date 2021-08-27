@@ -4,7 +4,7 @@ Basecalling, Mapping, Removing Duplicates, Quantification. In this case, the inp
 ### Content
 [Basecalling](#Basecalling)  
 [Mapping](#Mapping)  
-[Duplicate Removal](#Duplicate Removal) 
+[Duplicate_Removal](#Duplicate_Removal) 
 [Quantification](#Quantification) 
 <a name="headers"/>
 
@@ -25,7 +25,7 @@ do minimap2 -ax map-ont --secondary=no -N 0 <h38_frna_from_genomic.fna>
 done
 ```
 
-# Duplicate Removal
+# Duplicate_Removal
 Duplicates and secondary alignments are removed by using pysam
 ```bash
 import pysam
